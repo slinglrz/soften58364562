@@ -1,8 +1,8 @@
-version: '3'
+version: '3.5'
 services:
   myapp:
     image: rattakarn/node-express
     ports:
-      - "3000:3000"
-    command: "npm start"
+      - "8032:3000"
+    command: "node index.js"
 
