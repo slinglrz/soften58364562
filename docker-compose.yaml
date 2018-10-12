@@ -1,7 +1,7 @@
 version: '3.5'
 services:
   myapp:
-    image: rattakarn/node-express
+    image: slinglrz/soften58364562
     ports:
       - "8032:3000"
     command: "node index.js"
