@@ -4,5 +4,5 @@ services:
     image: slinglrz/soften58364562
     ports:
       - "8032:3000"
-    command: "node index.js"
+    command: "npm start"
 
